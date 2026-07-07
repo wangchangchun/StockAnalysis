@@ -152,12 +152,12 @@ guitar-theory-app/
 
 ## 6. 開發路線圖 / 里程碑
 
-**Phase 1 — MVP（可展示的核心體驗）**
-- [ ] 專案骨架建置（Vite + React + TS + Tailwind）
-- [ ] `ChordDiagram` SVG 元件（顯示單一和弦指板圖）
-- [ ] 和弦資料庫（涵蓋開放和弦、Power Chord、常用封閉和弦，約 30-40 組）
-- [ ] 和弦圖鑑瀏覽頁（分類篩選）
-- [ ] 點擊播放和弦音效（Tone.js + 合成音或取樣）
+**Phase 1 — MVP（可展示的核心體驗）** ✅ 已完成
+- [x] 專案骨架建置（Vite + React + TS + Tailwind）
+- [x] `ChordDiagram` SVG 元件（顯示單一和弦指板圖）
+- [x] 和弦資料庫（涵蓋開放和弦、Power Chord、常用封閉和弦，共 43 組）
+- [x] 和弦圖鑑瀏覽頁（分類篩選）
+- [x] 點擊播放和弦音效（實作採自寫 Karplus-Strong 合成，零依賴、免音色檔；之後若需更真實音色再引入 Tone.js + 取樣）
 
 **Phase 2 — 互動與動畫**
 - [ ] 和弦切換動畫（FingerAnimation）
